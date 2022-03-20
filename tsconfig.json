@@ -16,9 +16,9 @@
 		"jsx": "preserve",
 		"incremental": true,
 		"paths": {
-			"@app/*": ["src/app/*"],
-			"@features/*": ["src/features/*"],
-			"@styles/*": ["src/styles/*"]
+			"@app/*": ["src/frontend/app/*"],
+			"@features/*": ["src/frontend/features/*"],
+			"@styles/*": ["src/frontend/styles/*"]
 		}
 	},
 	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
