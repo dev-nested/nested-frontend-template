@@ -7,10 +7,12 @@ import ProTip from '@features/material-ui-demo/ProTip';
 import Copyright from '@features/material-ui-demo/Copyright';
 import Counter from '../features/counter/Counter';
 import styles from '../styles/Home.module.css';
+import HeroSection from 'src/component/HeroSection/HeroSection';
 
 const MaterialUiDemo = () => {
 	return (
 		<>
+			<HeroSection />
 			<Box
 				sx={{
 					my: 4,
