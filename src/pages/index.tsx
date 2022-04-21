@@ -1,18 +1,18 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@features/material-ui-demo/Link';
 import ProTip from '@features/material-ui-demo/ProTip';
 import Copyright from '@features/material-ui-demo/Copyright';
-
 import Counter from '../features/counter/Counter';
 import styles from '../styles/Home.module.css';
+import HeroSection from 'src/component/HeroSection/HeroSection';
 
 const MaterialUiDemo = () => {
 	return (
-		<Container maxWidth="lg">
+		<>
+			<HeroSection />
 			<Box
 				sx={{
 					my: 4,
@@ -31,7 +31,7 @@ const MaterialUiDemo = () => {
 				<ProTip />
 				<Copyright />
 			</Box>
-		</Container>
+		</>
 	);
 };
 
