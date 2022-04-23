@@ -12,16 +12,15 @@ import image from '../../imagese/heroImage.png';
 import Image from 'next/image';
 const useStyles = makeStyles({
 	herosection: {
-		height: 'auto',
+		height: '500px',
 		backgroundColor: '#FDFDFD',
 		margin: '0px',
+		paddingTop: '20px',
 		maxWidth: '100%',
 	},
 	description: {
-		height: '682px',
-		width: '761',
-		marginTop: '50px',
-		marginBottom: '50px',
+		alignItems: 'center',
+		justifyContent: 'center',
 	},
 	subTitle: {
 		fontSize: '12px',
