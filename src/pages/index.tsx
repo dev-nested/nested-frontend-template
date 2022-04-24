@@ -8,6 +8,7 @@ import Copyright from '@features/material-ui-demo/Copyright';
 import Counter from '../features/counter/Counter';
 import styles from '../styles/Home.module.css';
 import HeroSection from 'src/component/HeroSection/HeroSection';
+import Footer from 'src/component/Footer/Footer';
 
 const MaterialUiDemo = () => {
 	return (
@@ -31,6 +32,7 @@ const MaterialUiDemo = () => {
 				<ProTip />
 				<Copyright />
 			</Box>
+			<Footer />
 		</>
 	);
 };
@@ -38,7 +40,9 @@ const MaterialUiDemo = () => {
 const IndexPage: NextPage = () => {
 	return (
 		<>
+			<HeroSection />
 			<MaterialUiDemo />
+			<Footer />
 			<div className={styles.container}>
 				<Head>
 					<title>Redux Toolkit</title>

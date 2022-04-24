@@ -13,7 +13,7 @@ import MenuItem from '@mui/material/MenuItem';
 import { makeStyles } from '@mui/styles';
 import { Tooltip } from '@mui/material';
 
-const pages = ['Blog', 'AboutUs'];
+const pages = ['Blog', 'AboutUs', 'courses'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 const useStyles = makeStyles({
 	appBar: {
